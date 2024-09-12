@@ -2,15 +2,12 @@ body{
     background-color: #222222;
 }
 /*Middle Button*/
-.midbutton{
+.midbutton {
     overflow: hidden;
-    background-color: #101010;
+    float: center;
     font-size: 20px;
     padding: 10px; 
     text-align: center;
-}
-.midbuttin {
-    float: center;
 }
 /*Top Navigation bar*/
 .topnav{
