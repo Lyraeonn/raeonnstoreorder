@@ -5,9 +5,8 @@ body{
 .midbutton {
     overflow: hidden;
     background-color: #101010;
-    margin-bottom: 50px;
+    margin-bottom: -50px;
     float: center;
-    margin-top: -300px;
     padding: 10px; 
     text-align: center;
 }
@@ -41,7 +40,7 @@ body{
     background-image: url(https://wallpapers.com/images/featured/miku-nakano-h9l1l1gmrv07fpmf.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: -50%;
+    background-position: 50%;
     opacity: 0.8;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
