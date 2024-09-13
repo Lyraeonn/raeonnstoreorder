@@ -63,7 +63,7 @@ body{
 .pictures{
     background-color: #333333;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: -20px;
 }
 img{
     border-radius: 10px;
