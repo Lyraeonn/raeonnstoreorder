@@ -72,15 +72,3 @@ img{
     margin-right: 10%;
 }
 
-/*Credits*/
-.credits_thingy{
-    margin-top: -10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-    height: 12rem;
-}
-.yes{
-    padding: 160px;
-    text-align: center;
-    font-size: 14px;
-}
