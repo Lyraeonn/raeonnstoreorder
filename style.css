@@ -88,6 +88,18 @@ form .input_box .password_title {
     text-align: center;
 }
 
+form .input_box .userid_title {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+form .input_box .order_title {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 form .input_box {
     position: relative;
 }
