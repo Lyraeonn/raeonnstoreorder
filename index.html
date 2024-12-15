@@ -4,35 +4,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Order</title>
+  <title>Raeonn Store | Order</title>
+  <link rel="icon" href="/Media/loginimage.jpg">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="login_form">
     <!-- Login form container -->
     <form action="#">
-      <h3>Log in with</h3>
+      <h3>Order Form</h3>
 
       <!-- Login option separator -->
       <p class="separator">
-        <span>or</span>
       </p>
 
       <!-- Email input box -->
       <div class="input_box">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Enter email address" required />
+        <label for="email">Buyer name</label>
+        <input type="email" id="email" placeholder="Enter buyer name" required />
       </div>
 
       <!-- Paswwrod input box -->
       <div class="input_box">
         <div class="password_title">
-          <label for="password">Password</label>
-          <a href="#">Forgot Password?</a>
+          <label for="password">ID</label>
         </div>
 
-        <input type="password" id="password" placeholder="Enter your password" required />
+        <input type="password" id="password" placeholder="Enter your in-game ID" required />
       </div>
+
+      <!-- User id input box -->
+      <div class="input_box">
+        <div class="userid_title">
+          <label for="userid">User ID</label>
+        </div>
+
+        <input type="userid" id="userid" placeholder="Leave blank if not ordering for MLBB" />
+      </div>
+
+       <!-- Order input box -->
+      <div class="input_box">
+        <div class="order_title">
+          <label for="order">Order</label>
+        </div>
+
+        <input type="order" id="order" placeholder="Example: Weekly diamond pass" required />
+      </div>
+
 
        <!-- Login button -->
       <button type="submit">Log In</button>
