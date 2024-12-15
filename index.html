@@ -1,63 +1,50 @@
 <!DOCTYPE html>
-<!-- Source Codes By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Raeonn Store | Order</title>
-  <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="media/favicon.png">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="login_form">
-    <!-- Login form container -->
+      <img src="media/favicon.png" class="logo">
     <form action="#">
       <h3>Order Form</h3>
-
       <!-- Login option separator -->
       <p class="separator">
+        <span>proceed?</span>
       </p>
-
-      <!-- Email input box -->
+        
+      <!-- Name input box -->
       <div class="input_box">
-        <div class="name_title">
-          <label for="name">Buyer Name</label>
-        </div>
-
-        <input type="name" id="name" placeholder="Enter your name" required />
+        <label for="name">Name :</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
       </div>
 
-      <!-- Paswwrod input box -->
+      <!-- Id input box -->
       <div class="input_box">
-        <div class="password_title">
-          <label for="password">ID</label>
-        </div>
-
-        <input type="password" id="password" placeholder="Enter your in-game ID" required />
+        <label for="name">Server Id :</label>
+        <input type="text" placeholder="Enter your MLBB Server Id" required />
       </div>
-
-      <!-- User id input box -->
+        
+        <!-- ZoneId input box -->
       <div class="input_box">
-        <div class="userid_title">
-          <label for="userid">User ID</label>
-        </div>
-
-        <input type="userid" id="userid" placeholder="Leave blank if not ordering for MLBB" />
+        <label for="name">Zone Id :</label>
+        <input type="text" placeholder="Enter your MLBB Zone Id" required />
       </div>
-
-       <!-- Order input box -->
+        
+         <!-- Item input box -->
       <div class="input_box">
-        <div class="order_title">
-          <label for="order">Order</label>
-        </div>
-
-        <input type="order" id="order" placeholder="Example: Weekly diamond pass" required />
+        <label for="name">Item :</label>
+        <input type="text" placeholder="Example: Weekly Diamond Pass" required />
       </div>
-
 
        <!-- Login button -->
-      <button type="submit">Order</button>
+      <button type="submit" href="https://wa.me/60149357109">Submit order</button>
 
-      <p class="sign_up">Want to check the prices?? <a href="#">Pricelist's</a></p>
+      <p class="home">Unsure? <a href="#"> Check Prices.</a></p>
     </form>
   </div>
 </body>
