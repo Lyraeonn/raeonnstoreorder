@@ -21,7 +21,7 @@ body {
 
 /* Login form styling */
 .login_form {
-    width: 80%;
+    width: 100%;
     max-width: 435px;
     background: #fff;
     border-radius: 6px;
@@ -80,6 +80,12 @@ form .input_box input {
 
 form .input_box input:focus {
     border-color: #626cd6;
+}
+
+form .input_box .name_title {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 form .input_box .password_title {
